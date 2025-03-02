@@ -1,0 +1,41 @@
+# Ignore environment files
+.env
+.env.local
+.env.testing
+.env.*.backup
+
+# Ignore Composer dependencies that can be installed via composer install
+/vendor/
+
+# Ignore Laravel logs and caches
+/storage/
+bootstrap/cache/
+
+# Ignore compiled assets
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/build/
+
+# Ignore node_modules (from frontend dependencies)
+node_modules/
+
+# Ignore IDE/editor-specific files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore testing & coverage files
+.phpunit.result.cache
+coverage/
+
+# Ignore build artifacts
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
